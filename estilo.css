@@ -1,0 +1,249 @@
+:root {
+  --amarillo: #ff9f00;
+  --azul: #213c75;
+  --negro: #161616;
+  --naranja: #cc3f0c;
+  --verde: #33673b;
+  --titulos: 'Audiowide', cursive;
+  --subtitulos: 'Goldman', cursive;
+  --texto1: 'Coda', cursive;
+  --texto2: 'Gruppo', cursive;
+  --texto3: 'Play', sans-serif;
+  --margenLaterales: 30px;
+  --altoNavegacion: 90px;
+  --fondoHeader: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%23213C75' width='11' height='11'/%3E%3Crect fill='%23213b73' x='10' width='11' height='11'/%3E%3Crect fill='%23213b71' y='10' width='11' height='11'/%3E%3Crect fill='%23223a70' x='20' width='11' height='11'/%3E%3Crect fill='%2322396e' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%2322396c' y='20' width='11' height='11'/%3E%3Crect fill='%2322386a' x='30' width='11' height='11'/%3E%3Crect fill='%23223769' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23223667' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23223665' y='30' width='11' height='11'/%3E%3Crect fill='%23223564' x='40' width='11' height='11'/%3E%3Crect fill='%23223462' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23223460' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%2322335e' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%2322325d' y='40' width='11' height='11'/%3E%3Crect fill='%2322325b' x='50' width='11' height='11'/%3E%3Crect fill='%23223159' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23223058' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23223056' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23222f54' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23222e53' y='50' width='11' height='11'/%3E%3Crect fill='%23222e51' x='60' width='11' height='11'/%3E%3Crect fill='%23222d4f' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23222c4e' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23222c4c' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23222b4a' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23212a49' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23212a47' x='70' width='11' height='11'/%3E%3Crect fill='%23212945' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23212944' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23212842' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23202740' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%2320273f' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%2320263d' x='80' width='11' height='11'/%3E%3Crect fill='%2320253c' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%231f253a' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%231f2439' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%231f2337' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%231f2335' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%231e2234' x='90' width='11' height='11'/%3E%3Crect fill='%231e2232' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%231e2131' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%231d202f' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%231d202e' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%231d1f2c' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%231c1e2b' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%231c1e29' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%231b1d28' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%231b1d26' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%231b1c25' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%231a1b23' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%231a1b22' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23191a20' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23191a1f' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%2318191d' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%2318181c' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%2318181a' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23171719' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23171717' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23161616' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 90vh;
+  padding: var(--altoNavegacion) var(--margenLaterales) 36px
+    var(--margenLaterales);
+  background-color: #213c75;
+  background-image: var(--fondoHeader);
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+div.navegacion {
+  position: fixed;
+  top: 0;
+  padding: 15px var(--margenLaterales);
+  display: flex;
+  justify-content: space-between;
+  height: var(--altoNavegacion);
+  width: 100%;
+  background-color: rgb(22, 22, 22, 0.4);
+}
+
+.logo {
+  background-color: var(--negro);
+  height: 60px;
+  width: 60px;
+}
+nav {
+  font-family: var(--subtitulos);
+}
+
+ul {
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.gridHeader {
+  display: grid;
+  grid-template-columns: 1fr, repeat(3, 2fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: 62vh;
+  width: 60vw;
+  margin: auto;
+  margin-top: 7vh;
+  gap: 18px;
+}
+/* 
+.gridHeader div {
+  border: solid salmon 1px;
+  background-color: rgb(175, 109, 22);
+} */
+
+.gridHeader div:first-child {
+  grid-area: 1/1 / span 5 / span 2;
+  display: flex;
+  align-items: center;
+}
+
+.gridHeader div:nth-child(2) {
+  grid-area: 1/3 / span 1 / span 2;
+}
+
+.gridHeader div:nth-child(3) {
+  grid-area: 2/3 / span 3 / span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gridHeader div:nth-child(4) {
+  grid-area: 5/3 / span 1 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridHeader div:nth-child(5) {
+  grid-area: 5/4 / span 1 / span 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridHeader img {
+  height: 100%;
+}
+
+.gridHeader h1 {
+  font-family: var(--titulos);
+  font-size: 5em;
+  text-align: right;
+}
+
+.gridHeader p:first-child {
+  font-size: 1.6em;
+  font-family: var(--texto3);
+  border: var(--amarillo) solid 1px;
+  text-align: right;
+  margin-left: 130px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.gridHeader p:last-child {
+  font-size: 2em;
+  font-family: var(--texto2);
+  font-style: oblique;
+}
+
+button.demo,
+button.agenda,
+button.cerrar {
+  height: 55px;
+  width: 166px;
+  background-color: var(--amarillo);
+  border-radius: 15px;
+  border: none;
+  font-family: var(--texto3);
+  font-size: 1.4em;
+  font-weight: 600;
+  color: var(--azul);
+}
+button.cerrar {
+  width: 50px;
+  height: 50px;
+  background-color: var(--azul);
+  color: white;
+}
+
+.modal-header {
+  display: flex !important;
+  justify-content: space-between;
+}
+
+button.agenda {
+  width: 100%;
+}
+
+main {
+  color: white;
+  background-color: var(--negro);
+  font-family: var(--texto3);
+  padding: 15px var(--margenLaterales) 0 var(--margenLaterales);
+}
+
+#steps h2 {
+  font-family: var(--titulos);
+  font-size: 3.3em;
+  margin-bottom: 36px;
+  margin-top: 36px;
+}
+
+#steps h5 {
+  font-size: 2em;
+}
+
+#steps .progressbar p {
+  font-size: 1.2em;
+}
+
+#steps p {
+  font-size: 1.6em;
+}
+
+/* ---------- Progress bar ------------- */
+.container {
+  width: 100%;
+  color: white;
+}
+
+.progressbar {
+  counter-reset: step;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.progressbar li {
+  list-style: none;
+  display: inline-block;
+  width: 31%;
+  position: relative;
+  text-align: center;
+  background-color: var(--amarillo);
+  border-radius: 8px;
+  padding: 30px;
+}
+.progressbar li:before {
+  content: counter(step);
+  counter-increment: step;
+  width: 45px;
+  height: 45px;
+  font-size: 2em;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  background-color: var(--azul);
+}
+.progressbar li:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  top: 15px;
+  left: -50%;
+  z-index: -1;
+}
+.progressbar li:first-child:after {
+  content: none;
+}
+/* --- fin de "progress bar" --- */

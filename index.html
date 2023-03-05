@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Coda&family=Goldman:wght@400;700&family=Gruppo&family=Play:wght@400;700&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./estilo.css" />
+    <title>Robotito landing page</title>
+  </head>
+  <body>
+    <div class="navegacion">
+      <div class="logo"></div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#intro">Introducción</a>
+          </li>
+          <li>
+            <a href="#steps">Configuración</a>
+          </li>
+          <li>
+            <a href="team">Quiénes somos</a>
+          </li>
+          <li>Contacto</li>
+        </ul>
+      </nav>
+    </div>
+    <header id="intro">
+      <div class="gridHeader">
+        <div>
+          <img src="./img/robotito-sin-fondo.png" alt="imagen de Robotito" />
+        </div>
+        <div><h1>Robotito</h1></div>
+        <div>
+          <p>
+            Robotito es mucho más que un dispositivo electrónico de los tantos
+            que acummulamos.
+          </p>
+          <p>"Robotito te conecta al mundo"</p>
+        </div>
+        <div>
+          <button
+            type="button"
+            class="demo"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Ver demo
+          </button>
+        </div>
+        <div>
+          <button class="agenda">Próximos eventos</button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="steps">
+        <h2>¿Cómo se utiliza Robotito?</h2>
+        <p>Sigue estos sencillos pasos para poder utilizar tu Robotito</p>
+        <div class="container">
+          <ul class="progressbar">
+            <li>
+              <h5>Crear una cuenta de usuario</h5>
+              <p>Necesitarás un correo electrónico o un teléfono móvil</p>
+              <p><a href="#steps">Ver vídeo demostrativo</a></p>
+            </li>
+            <li>
+              <h5>Sincronizar con el televisor</h5>
+              <p>
+                Para ello es necesario que tengas servicio de conexión a
+                Internet
+              </p>
+              <p><a href="#steps">Ver vídeo demostrativo</a></p>
+            </li>
+            <li>
+              <h5>Todo listo para usar Robotito</h5>
+              <p>
+                Enciende el robot y comienza a hablar con personas afines a ti
+              </p>
+              <p><a href="#steps">Ver vídeo demostrativo</a></p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="team"></section>
+    </main>
+
+    <!--Modal-->
+    <div
+      class="modal fade"
+      id="exampleModalCenter"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-body">
+              <video
+                src="./img/video-demo.mp4"
+                width="420"
+                height="240"
+                autoplay
+                controls
+              >
+                Lo sentimos. Este vídeo no puede reproducirse en este
+                navegador.<br />
+                Puedes descargar el video aqui: <a href="URL">Enlace</a>.
+              </video>
+            </div>
+            <button
+              type="button"
+              class="cerrar"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin de modal-->
+
+    <script></script>
+  </body>
+</html>
