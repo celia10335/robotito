@@ -33,7 +33,7 @@
             <a href="#steps">Configuración</a>
           </li>
           <li>
-            <a href="team">Quiénes somos</a>
+            <a href="#team">Quiénes somos</a>
           </li>
           <li>Contacto</li>
         </ul>
@@ -63,14 +63,21 @@
           </button>
         </div>
         <div>
-          <button class="agenda">Próximos eventos</button>
+          <button
+            type="button"
+            class="agenda"
+            data-toggle="modal"
+            data-target="#proxEventos"
+          >
+            Próximos eventos
+          </button>
         </div>
       </div>
     </header>
     <main>
       <section id="steps">
         <h2>¿Cómo se utiliza Robotito?</h2>
-        <p>Sigue estos sencillos pasos para poder utilizar tu Robotito</p>
+        <p>Sigue estos sencillos pasos para poder utilizar tu Robotito.</p>
         <div class="container">
           <ul class="progressbar">
             <li>
@@ -96,10 +103,76 @@
           </ul>
         </div>
       </section>
-      <section id="team"></section>
+      <section id="team">
+        <h2>Conoce a nuestro equipo</h2>
+        <p>Somos un grupo de personas comprometidas con la sociedad.</p>
+        <div class="teamTarjetas">
+          <div class="celia">
+            <div class="foto"></div>
+            <h3>Celia Blanco</h3>
+            <h5>Community manager</h5>
+            <p>Técnico en desarrollo de aplicaciones web.</p>
+            <p>
+              Celia es una apasionada de las nuevas tecnologías y las redes
+              sociales. Es la encargada de gestionar la comunicación con los
+              clientes y publicar toda la información relativa a eventos y
+              acciones de promoción.
+            </p>
+          </div>
+          <div class="bilal">
+            <div class="foto"></div>
+            <h3>Bilal</h3>
+            <h5>Cargo</h5>
+            <p>Técnico en desarrollo de aplicaciones web.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+              fugiat reiciendis? Labore similique, dolor quibusdam ipsa, quis
+              quidem quam aliquam et, ipsum tempore numquam consequuntur
+              quisquam eligendi suscipit quae animi?
+            </p>
+          </div>
+          <div class="manar">
+            <div class="foto"></div>
+            <h3>Manar</h3>
+            <h5>Cargo</h5>
+            <p>Técnico en administración y finanzas.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+              fugiat reiciendis? Labore similique, dolor quibusdam ipsa, quis
+              quidem quam aliquam et, ipsum tempore numquam consequuntur
+              quisquam eligendi suscipit quae animi?
+            </p>
+          </div>
+          <div class="ibrahim">
+            <div class="foto"></div>
+            <h3>Ibrahim</h3>
+            <h5>Cargo</h5>
+            <p>Técnico en administración y finanzas.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+              fugiat reiciendis? Labore similique, dolor quibusdam ipsa, quis
+              quidem quam aliquam et, ipsum tempore numquam consequuntur
+              quisquam eligendi suscipit quae animi?
+            </p>
+          </div>
+
+          <div class="aicha">
+            <div class="foto"></div>
+            <h3>Aicha</h3>
+            <h5>Cargo</h5>
+            <p>Técnico en administración y finanzas.</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit,
+              fugiat reiciendis? Labore similique, dolor quibusdam ipsa, quis
+              quidem quam aliquam et, ipsum tempore numquam consequuntur
+              quisquam eligendi suscipit quae animi?
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <!--Modal-->
+    <!--Modal vídeo demo-->
     <div
       class="modal fade"
       id="exampleModalCenter"
@@ -138,6 +211,69 @@
     </div>
     <!--Fin de modal-->
 
-    <script></script>
+    <!--Modal agenda-->
+    <div
+      class="modal fade"
+      id="proxEventos"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-body">
+              <table class="eventos">
+                <tr>
+                  <th>Fecha</th>
+                  <th>Hora</th>
+                  <th>Lugar</th>
+                </tr>
+                <tr>
+                  <td>16 marzo</td>
+                  <td>12:00</td>
+                  <td>Plaza de los Reyes (Ceuta)</td>
+                </tr>
+                <tr>
+                  <td>29 marzo</td>
+                  <td>11:00</td>
+                  <td>C.C. Parques de Ceuta (Ceuta)</td>
+                </tr>
+                <tr>
+                  <td>19 abril</td>
+                  <td>11:00</td>
+                  <td>Plaza de España (Sevilla)</td>
+                </tr>
+                <tr>
+                  <td>5 mayo</td>
+                  <td>12:00</td>
+                  <td>C.C. Puerta de Europa (Algeciras)</td>
+                </tr>
+                <tr>
+                  <td>21 mayo</td>
+                  <td>10:00</td>
+                  <td>C.C. Isla Azul (Madrid)</td>
+                </tr>
+                <tr>
+                  <td>27 mayo</td>
+                  <td>11:30</td>
+                  <td>Explanada de la Marina (Ceuta)</td>
+                </tr>
+              </table>
+            </div>
+            <button
+              type="button"
+              class="cerrar"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin de modal-->
   </body>
 </html>
